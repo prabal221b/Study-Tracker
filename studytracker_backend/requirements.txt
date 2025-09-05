@@ -1,0 +1,24 @@
+Django>=5.0,<6.0
+djangorestframework>=3.15
+djangorestframework-simplejwt>=5.3
+drf-yasg>=1.21
+
+# MongoDB driver
+pymongo>=4.7
+
+# Environment variables
+python-dotenv>=1.0
+
+# CORS
+django-cors-headers>=4.3
+
+# Testing
+pytest>=8.0
+pytest-django>=4.8
+
+# Optional (if using caching backends like Redis in future)
+django-redis>=5.4
+
+jsonfield
+
+certifi

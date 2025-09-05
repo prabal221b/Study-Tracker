@@ -1,0 +1,12 @@
+{
+    "include": ["src", "components"],
+    "references": [],
+    "compilerOptions": {
+      "strict": true,
+      "jsx": "react-jsx",
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    }
+  }

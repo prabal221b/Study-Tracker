@@ -1,0 +1,60 @@
+{
+    "plan id" : "unique",
+    "user_id" : "xyz",
+    "Technology name": "JavaScript",
+    "roadmap" : 
+        [
+            {
+                "day": "1",
+                "title": "Loops",
+                "Description": "Learn about looping in javascript",
+                "video": "link",
+                "aritcle": "link",
+                "markDone": "false"
+                },
+            {
+                "day": "2",
+                "title": "Loops",
+                "Description": "Learn about looping in javascript",
+                "video": "link",
+                "aritcle": "link",
+                "markDone": "false"
+                },
+            {
+                "day": "3",
+                "title": "Loops",
+                "Description": "Learn about looping in javascript",
+                "video": "link",
+                "aritcle": "link",
+                "markDone": "false"
+                },
+            {
+                "day": "4",
+                "title": "Loops",
+                "Description": "Learn about looping in javascript",
+                "video": "link",
+                "aritcle": "link",
+                "markDone": "false"
+                },
+            {
+                "day": "5",
+                "title": "Loops",
+                "Description": "Learn about looping in javascript",
+                "video": "link",
+                "aritcle": "link",
+                "markDone": "false"
+                },
+            {
+                "day": "6",
+                "title": "Loops",
+                "Description": "Learn about looping in javascript",
+                "video": "link",
+                "aritcle": "link",
+                "markDone": "false"
+            }
+    ]
+}
+
+
+
+
