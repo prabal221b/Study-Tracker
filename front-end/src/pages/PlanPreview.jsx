@@ -59,60 +59,6 @@ const PlanPreview = () => {
     navigate(ROUTES.HOME);
   }
 
-
-  // const [data, setData] = useState(null);
-  
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await fetch('http://127.0.0.1:8000/api/roadmap/68b86ab6245ad5d7a7db6537', {
-  //         method: 'GET',
-  //         headers: {
-  //           'Authorization': `Bearer ${sessionStorage.getItem('accessToken')}`,
-  //           'Content-Type': 'application/json',
-  //         },
-  //       });
-
-  //       if (!response.ok) {
-  //         setIsLoading(false);
-  //         throw new Error(`HTTP error! status: ${response.status}`);
-  //       }
-
-  //       const result = await response.json();
-  //       setIsLoading(false);
-  //       setData(result);
-  //     } catch (error) {
-  //       setIsLoading(false);
-  //       setError(error);
-  //     }
-  //   };
-
-  //   fetchData();
-  // }, []);
-
-  // if (error) {
-  //   const button = "";
-  //   return <Error error="unable to process, Please try again. " />
-  // }
-
-  // if (isLoading) {
-  //   return <Spin />;
-  // }
-
-
-  // useEffect(() => {
-  //     if (error) {
-  //       return <Error error="unable to process, Please try again. " />
-  //       }
-  //   }, [error]);
-
-  // useEffect(() => {
-  //   if (isLoading) {
-  //     return <Spin />;
-  //   }
-  // }, [isLoading]);
-
   return (
     <motion.div 
         initial={{ opacity: 0}}
